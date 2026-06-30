@@ -13,7 +13,7 @@ Currently learning the modern data stack: Airflow, dbt, and Snowflake.
 
 ### Find me
 - **Portfolio:** https://mfascyberdata.github.io
-- **LinkedIn:** https://linkedin.com/in/fils-abou-sidik-m
+- **LinkedIn:** https://linkedin.com/in/sidikmbohou
 - **Email:** sidikmbohou@gmail.com
 
 ---
