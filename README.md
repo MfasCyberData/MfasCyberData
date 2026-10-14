@@ -26,7 +26,7 @@ The project covered **MyReport Data, PostgreSQL, SQL, PL/pgSQL, pgAgent, data mo
 - **Food Price Analytics** — 47,750+ World Food Programme records, R, tidyverse, Prophet, geospatial and time-series analysis  
   → [View case study](https://mfascyberdata.github.io/projects/food-prices.html)
 
-- **Alshadows HR Analytics (2025 academic internship)** — SQL Server (9 related tables), Power Query, 20+ DAX measures and 4-page interactive Power BI prototype; simulated HR/financial indicators. Stage evaluated 18/20 (ESAIP S2).  
+- **Alshadows HR Analytics (2025 academic internship)** — SQL Server (9 related tables), Power Query, 20+ DAX measures and 4-page interactive Power BI prototype; simulated HR/financial indicators.  
   → [Explore the BI case study and public report](https://mfascyberdata.github.io/projects/alshadows-hr-analytics.html)
 
 - **Distributed Processing Cluster** — Docker, Hadoop, HDFS, YARN, Spark, MapReduce, PySpark
