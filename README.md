@@ -68,6 +68,8 @@ Open to **Analytics Engineer, Data Engineer, and data-focused BI and Analytics r
 
 **CDI or CDD · Open to relocation across France**
 
+I’m also interested in **cybersecurity consulting** (risk assessment and governance) and **funded PhD opportunities** in data science, data engineering, cybersecurity or AI security.
+
 ## Find me
 
 - [Portfolio](https://mfascyberdata.github.io/)
