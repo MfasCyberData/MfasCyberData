@@ -1,118 +1,62 @@
-# Hi, I'm Fils Aboubakar Sidik MBOHOU 👋
+# Fils Aboubakar Sidik MBOHOU
 
-**Analytics Engineer · Data Engineering · BI & Analytics · Cybersecurity**
+**Analytics Engineer · Data Engineering · Business Intelligence & Analytics · Cybersecurity**
 
-MSc in **Cybersecurity & Data Science** from **ESAIP Engineering School, France**.
+MSc in **Cybersecurity & Data Science**, ESAIP Engineering School (France).
 
-I build reliable, analytics-ready data systems that connect ingestion, transformation, modeling, data quality and reporting to real business needs. My cybersecurity background also influences how I approach data systems, especially around reliability, traceability, validation and risk.
+I build reliable data pipelines, analytical models and reporting that connect source data to business needs. My approach combines **performance, data quality, testing and traceability**, informed by a complementary cybersecurity background.
 
-## Featured production work
+[Portfolio & case studies](https://mfascyberdata.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/sidikmbohou/) · [Email](mailto:sidikmbohou@gmail.com)
 
-### HortiTrace SAS · Analytics Engineering
+## Production experience — HortiTrace SAS
 
-Optimized a production PostgreSQL / MyReport BE analytics pipeline while preserving existing business reports and dashboards.
+**Data Engineering · Final-year industry project · France (Nov 2025 – May 2026)**
 
-- ETL cycle: **~30 min → ~6 min**
-- Rows reloaded per cycle: **6.3M → ~312K**
-- Reporting read path: **6.1M → ~530K rows**
-- Report generation: **>60 sec → <10 sec**
-- Production validation: **0 data discrepancies**
+Optimized a production **PostgreSQL / MyReport BE** analytics workflow using incremental loading and a pre-aggregated reporting layer, while preserving existing business reports.
 
-`PostgreSQL` · `SQL` · `PL/pgSQL` · `MyReport BE` · `ETL`
+| Measure | Before | After |
+|:--|--:|--:|
+| ETL cycle | ~30 min | ~6 min |
+| Rows reloaded per cycle | ~6.3 million | ~312,000 |
+| Rows read for reporting | ~6.1 million | ~530,000 |
+| Report generation | >60 s | <10 s |
 
-→ [Case study](https://mfascyberdata.github.io/projects/hortitrace.html)
+The changes were checked with **7 supervised non-regression tests**, covering **6,425 partners**. **No data discrepancies were found within the validated scope.** Production data and internal code are not public.
 
-## Featured projects
+`PostgreSQL` · `SQL` · `PL/pgSQL` · `pgAgent` · `MyReport BE` · `ETL`
 
-### Distributed Processing · Hadoop & Spark
+[Read the HortiTrace case study](https://mfascyberdata.github.io/en/projects/hortitrace.html)
 
-Built and validated a containerized distributed-processing lab with **2 HDFS DataNodes**, YARN, standalone Spark, Java MapReduce and PySpark. MapReduce and PySpark were validated on the same WordCount task, and a second MapReduce job was debugged to compute average word length.
+## Selected projects
 
-`Docker` · `HDFS` · `YARN` · `Spark` · `Java` · `PySpark`
+### Data Engineering & Analytics
 
-→ [Case study](https://mfascyberdata.github.io/projects/big-data-hadoop-spark.html)
+- **[Business Intelligence — Alshadows](https://mfascyberdata.github.io/en/projects/alshadows-hr-analytics.html)** · Academic internship. Built a prototype on **demonstration data** with **9 SQL Server tables**, **30 SQL queries**, **20+ DAX measures** and **4 interactive Power BI pages** covering HR, finance and projects.
+- **[Food Price Analytics](https://mfascyberdata.github.io/en/projects/food-prices.html)** · Analyzed **66,100 valid WFP observations** across **83 markets, 55 commodities and 9 regions** in Cameroon (2005–2025), including trends, volatility, seasonality and exploratory forecasting with R/Prophet.
+- **[Hadoop & Spark Lab](https://mfascyberdata.github.io/en/projects/big-data-hadoop-spark.html)** · Built a Docker-based processing lab with **2 HDFS DataNodes**, YARN, Java MapReduce and standalone Spark/PySpark; compared WordCount outputs between the two processing approaches.
 
-### Network Threat Detection · ThreatLens
+### Cybersecurity & Applied Machine Learning
 
-Academic team project based on CSE-CIC-IDS2018. The workflow covers data preparation, model comparison, threshold selection, error analysis and a Flask demonstration application.
+- **[ThreatLens — Network Threat Detection](https://mfascyberdata.github.io/en/projects/network-threat-detection.html)** · Three-person academic project using **176,758 CSE-CIC-IDS2018 flows** and **64 features**. Compared classification models and evaluated the selected model on a held-out test set: **91.6% attack detection** and **macro F1 ≈ 0.877**. Built a Flask demonstration application.
+- **[Adversarial Machine Learning](https://mfascyberdata.github.io/en/projects/adversarial-ml.html)** · Four-person project on a PyTorch CNN with MNIST/FGSM (**ε = 8/255**). Under the documented evaluation protocol, adversarial training reduced attack success from **2.07% to 1.29%**. **[View the public team repository](https://github.com/MfasCyberData/mnist-adversarial-ml).**
+- **[Digital Forensics & Incident Reconstruction](https://mfascyberdata.github.io/en/projects/digital-forensics-investigation.html)** · Worked on the **NARCOS-2019** academic case and complementary disk, memory and network forensics labs, using Autopsy, Volatility, FTK Imager and Wireshark to correlate evidence and reconstruct timelines.
 
-- **64 network-flow features**
-- Logistic Regression, Random Forest and HistGradientBoosting compared
-- **91.6% attack detection rate**
-- **Macro F1 ≈ 0.877**
+Additional case studies: [SMS Spam Detection](https://mfascyberdata.github.io/en/projects/sms-spam-detection.html) · [Glass Type Classification](https://mfascyberdata.github.io/en/projects/forensic-glass-classification.html) · [Ligolo-ng Network Pivoting Lab](https://mfascyberdata.github.io/en/projects/ligolo-network-pivoting.html).
 
-`Python` · `pandas` · `scikit-learn` · `Flask`
+**Code availability:** Only projects with an explicit repository link should be treated as public source-code repositories. The portfolio contains the methodology, results and supporting material for other studies.
 
-→ [Case study](https://mfascyberdata.github.io/projects/network-threat-detection.html)
+## Technical toolkit
 
-### Food Price Analytics
+- **Analytics Engineering & Data:** SQL, PostgreSQL, PL/pgSQL, SQL Server, ETL/ELT, data warehousing, dimensional modeling (including star schema), testing, data quality and documentation.
+- **BI & Data Science:** Power BI, DAX, Power Query, MyReport BE, Python (pandas, scikit-learn, PyTorch), R and exploratory forecasting.
+- **Platforms & development:** Docker, Hadoop, Spark, Git, Linux, Azure VM.
+- **Cybersecurity & governance foundations:** Wazuh/OSSIM, digital forensics (Volatility, Autopsy, Wireshark), network analysis, MITRE ATT&CK, EBIOS RM, ISO/IEC 27001 and GDPR.
+- **Currently learning:** dbt, Airflow, Snowflake and CI/CD.
 
-Analyzed **66,100 valid World Food Programme price observations** across **83 markets, 55 commodities and 9 regions in Cameroon**, covering 2005 to February 2025.
+## Background & opportunities
 
-The project explores long-term trends, regional differences, volatility, seasonality and an exploratory Prophet forecast.
+The ESAIP MSc covered **120 ECTS**; my four-semester average was **16.43/20**, with first-place semester rankings in S2–S4. Before this degree, I worked in **IT consulting and application analysis**, including business requirements, software integration and technical problem-solving. I am particularly interested in the intersection of **reliable analytics and secure data systems**.
 
-`R` · `tidyverse` · `Time Series` · `Geospatial Analysis` · `Prophet`
+I am open to **Analytics Engineer, Data Engineer and BI & Analytics roles** in France (CDI/CDD; nationwide relocation possible), as well as relevant **funded PhD/CIFRE projects** and selected **cybersecurity risk/governance opportunities**. I also consider selected international roles.
 
-→ [Case study](https://mfascyberdata.github.io/projects/food-prices.html)
-
-### Digital Forensics & Incident Reconstruction
-
-Worked on the **NARCOS-2019** academic investigation and complementary Windows, Linux-memory and network-forensics labs.
-
-The work covers disk and memory analysis, timeline reconstruction, malware and persistence artefacts, PCAP analysis and cross-system evidence correlation.
-
-`Autopsy` · `Volatility` · `FTK Imager` · `Wireshark`
-
-→ [Case study](https://mfascyberdata.github.io/projects/digital-forensics-investigation.html)
-
-### HR Analytics · Power BI
-
-Built a BI prototype during an academic internship at Alshadows using SQL Server, Power Query, DAX and Power BI.
-
-- **9 related SQL Server tables**
-- **20+ DAX measures**
-- **4 interactive Power BI views**
-
-`SQL Server` · `Power BI` · `DAX` · `Power Query`
-
-→ [Case study](https://mfascyberdata.github.io/projects/alshadows-hr-analytics.html)
-
-> More case studies covering machine learning, adversarial ML and network pivoting are available in my [portfolio](https://mfascyberdata.github.io/).
-
-## Core stack
-
-**Data Engineering**  
-`SQL` · `PostgreSQL` · `Python` · `ETL / ELT` · `Data Modeling` · `Data Warehousing` · `Hadoop` · `Spark`
-
-**Analytics & BI**  
-`Power BI` · `DAX` · `Power Query` · `MyReport BE` · `R` · `pandas` · `scikit-learn`
-
-**Cybersecurity**  
-`Volatility` · `Autopsy` · `Wireshark` · `Wazuh` · `OSSIM` · `Nmap` · `MITRE ATT&CK`
-
-**Platform & Tools**  
-`Docker` · `Git` · `Linux` · `Azure`
-
-## Currently learning
-
-`dbt` · `Airflow` · `Snowflake`
-
-## Repositories
-
-Public repositories for selected projects are being cleaned, documented and will be **published progressively on GitHub**.
-
-In the meantime, the full project narratives, results and supporting evidence are available in my portfolio.
-
-## Open to opportunities
-
-Open to **Analytics Engineer, Data Engineer and data-focused BI / Analytics roles in France**.
-
-**CDI / CDD · Open to relocation across France**
-
-I also remain interested in selected opportunities in **cybersecurity** and **research** that align with my Data + Security background.
-
-## Find me
-
-- 🌐 [Portfolio](https://mfascyberdata.github.io/)
-- 💼 [LinkedIn](https://linkedin.com/in/sidikmbohou)
-- ✉️ [sidikmbohou@gmail.com](mailto:sidikmbohou@gmail.com)
+[Explore the full portfolio](https://mfascyberdata.github.io/en/) · [Connect on LinkedIn](https://www.linkedin.com/in/sidikmbohou/)
