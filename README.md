@@ -4,7 +4,7 @@
 
 MSc in **Cybersecurity & Data Science**, ESAIP Engineering School (France).
 
-I build reliable data pipelines, analytical models and reporting that connect source data to business needs. My approach combines **performance, data quality, testing and traceability**, informed by a complementary cybersecurity background.
+I build reliable data pipelines, analytical models and reporting that connect source data to business needs. My approach combines **performance, data quality, testing and traceability**, informed by a complementary **cybersecurity** background.
 
 [Portfolio & case studies](https://mfascyberdata.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/sidikmbohou/) · [Email](mailto:sidikmbohou@gmail.com)
 
