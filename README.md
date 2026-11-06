@@ -1,6 +1,6 @@
 # Fils Aboubakar Sidik MBOHOU
 
-**MSc Cybersecurity & Data Science** · ESAIP Engineering School, France · 16.43/20, ranked 1st in semesters 2–4
+**MSc Cybersecurity & Data Science** · ESAIP Engineering School, France · 16.43/20.
 
 **Data you can trust, systems you can defend.** I build reliable data pipelines and I detect and investigate security events. Both start from evidence, require traceability and end with conclusions someone else can verify.
 
